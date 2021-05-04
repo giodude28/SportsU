@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LeagueView"
+    android:layout_marginBottom="55dp">
+    <TextView
+        android:id="@+id/awd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Choose a League"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:layout_gravity="left" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/awd"
+        android:id="@+id/progress"
+        android:layout_marginTop="70dp"/>
+    <TextView
+        android:id="@+id/visi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/awd"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="No Data Available"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/awd"
+        android:id="@+id/leagueRecyclerview"/>
+</RelativeLayout>

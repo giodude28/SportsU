@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homes"
+        android:enabled="true"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+    <item
+        android:id="@+id/league"
+        android:enabled="true"
+        android:title="League"
+        android:icon="@drawable/trophy"
+        />
+    <item
+        android:id="@+id/teams"
+        android:enabled="true"
+        android:title="Teams"
+        android:icon="@drawable/ic_baseline_people_alt_24"
+        />
+    <item
+        android:id="@+id/match"
+        android:enabled="true"
+        android:title="Matches"
+        android:icon="@drawable/ic_baseline_skip_previous_24"
+        />
+
+</menu>
